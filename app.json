@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "reactStarterKit",
+    "description": "React Native Starter Kit by Rafael Câmara and Expo",
+    "privacy": "public",
+    "sdkVersion": "19.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "loading": {
+      "backgroundColor": "#55ACEF",
+      "icon": "./app/images/twitter-black-logo.png",
+      "hideExponentText": true
+    },
+    "android": {
+      "package": "com.teste.rafael"
+    }
+  }
+}
