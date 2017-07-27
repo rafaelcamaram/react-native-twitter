@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "reactStarterKit",
-    "description": "React Native Starter Kit by Rafael Câmara and Expo",
+    "name": "Twitter",
+    "description": "Twitter App developed using React Native",
     "privacy": "public",
     "sdkVersion": "19.0.0",
     "version": "1.0.0",
@@ -12,7 +12,7 @@
       "hideExponentText": true
     },
     "android": {
-      "package": "com.teste.rafael"
+      "package": "com.test.rafael"
     }
   }
 }

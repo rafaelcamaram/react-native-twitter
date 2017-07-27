@@ -1,8 +1,8 @@
 {
   "expoServerPort": 19000,
-  "expoServerNgrokUrl": "https://7k-tzz.rafaelcamaram.reactstarterkit.exp.direct",
-  "packagerNgrokUrl": "https://packager.7k-tzz.rafaelcamaram.reactstarterkit.exp.direct",
-  "ngrokPid": 31464,
+  "expoServerNgrokUrl": "https://ax-nez.rafaelcamaram.reactstarterkit.exp.direct",
+  "packagerNgrokUrl": "https://packager.ax-nez.rafaelcamaram.reactstarterkit.exp.direct",
+  "ngrokPid": 25124,
   "packagerPort": 19001,
-  "packagerPid": 32796
+  "packagerPid": 31240
 }

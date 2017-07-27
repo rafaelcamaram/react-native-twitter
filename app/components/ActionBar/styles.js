@@ -11,7 +11,8 @@ const styles = StyleSheet.create({
 		paddingRight: 16,
 		flexDirection: 'row',
 		marginTop: Platform.OS === 'ios' ? 0 : StatusBar.currentHeight,
-		alignItems: 'center'
+		alignItems: 'center',
+		backgroundColor: 'white',
 	},
 	profileImage: {
 		width: 40,

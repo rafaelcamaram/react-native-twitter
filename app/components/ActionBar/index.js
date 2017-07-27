@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Text, View, Image, TextInput} from 'react-native';
+import {Text, View, Image, TextInput, TouchableWithoutFeedback} from 'react-native';
 
 /* Images */
 import images from 'app/config/images';
@@ -45,15 +45,22 @@ class ActionBar extends Component {
 		});
 	}
 
+	_onPressProfileImage() {
+		console.warn(this.props);
+	}
+
 	render() {
-		const { textTitle, type } = this.state;
+		const {textTitle, type} = this.state;
 		return (
 			<View
 				style={styles.actionBar}>
-				<Image
-					style={styles.profileImage}
-					source={images.profileImage}
-				/>
+				<TouchableWithoutFeedback
+					onPress={this._onPressProfileImage.bind(this)} >
+					<Image
+						style={styles.profileImage}
+						source={images.profileImage}
+					/>
+				</TouchableWithoutFeedback>
 				{type === 'search' ? <SearchInput/> : <Text style={styles.titleText}>{textTitle}</Text>}
 			</View>
 		);

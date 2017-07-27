@@ -32,7 +32,7 @@ class MessagesPage extends Component {
 				<Button
 					title="Go to Jane's profile"
 					onPress={() => {
-						navigate('Home', { name: 'Home props' })
+						navigate('DrawerOpen', { name: 'Home props' })
 					}}
 				/>
 			</View>)

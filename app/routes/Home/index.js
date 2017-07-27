@@ -30,7 +30,6 @@ class HomePage extends Component {
 		const { navigate } = this.props.navigation;
 		return (
 			<View style={styles.container}>
-
 				<Counter text="Home"/>
 				<Button
 					title="Go to Jane's profile"
